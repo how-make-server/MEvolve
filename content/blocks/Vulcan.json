@@ -3,7 +3,7 @@
 	"name": "Vulcan",
 	"description": "TRATATATATATATTATATATA. Oh, where all ammo?",
 	"health": 300,
-	"size": 2,
+	"size": 3,
 	"reload": 1,
 	"range": 125,
 	"ammoUseEffect": "shellEjectSmall",
@@ -11,18 +11,28 @@
 	"rotatespeed": 15,
 	"ammo": {
 		"Ammo": {
-			"speed": 4,
+			"speed": 6,
 			"damage": 10,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 10
+		},
+		"Armor-PiercingAmmo": {
+			"speed": 10
+			"damage": 35
+			"bulletWidth": 7
+			"bulletHeight": 10
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 15
 		}
 	},
 	"requirements": [
-		{ "item": "Bronze", "amount": 100 },
-		{ "item": "copper", "amount": 70 }
+		{ "item": "Bronze", "amount": 150 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "Tin", "amount": 80 }
 	],
 	"category": "turret",
 }
