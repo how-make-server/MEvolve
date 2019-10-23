@@ -4,20 +4,20 @@
 	"description": "TRATATATATATATTATATATA. Oh, where all ammo?",
 	"health": 300,
 	"size": 3,
-	"reload": 1,
+	"reload": 3,
 	"range": 125,
 	"ammoUseEffect": "shellEjectSmall",
-	"inaccuracy": 40,
+	"inaccuracy": 25,
 	"rotatespeed": 15,
 	"ammo": {
 		"Ammo": {
-			"speed": 6,
+			"speed": 7,
 			"damage": 10,
 			"bulletWidth": 7,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 10
+			"ammoMultiplier": 20
 		},
 		"Armor-PiercingAmmo": {
 			"speed": 10
@@ -26,7 +26,7 @@
 			"bulletHeight": 10
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 15
+			"ammoMultiplier": 30
 		}
 	},
 	"requirements": [

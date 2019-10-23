@@ -3,7 +3,7 @@
 	"name": "Bronze",
 	"description": "Nice metal.",
 	"hardness": 1,
-	"cost": 6.0,
+	"cost": 1.0,
 	"color": "#EB9234",
 	"radioactivity": 0.0
 	"explosiveness": 0.0

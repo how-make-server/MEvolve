@@ -7,7 +7,7 @@
 	"reload": 30,
 	"range": 250,
 	"ammoUseEffect": "shellEjectBig",
-	"inaccuracy": 5,
+	"inaccuracy": 1,
 	"rotatespeed": 8,
 	"ammo": {
 		"Ammo": {
