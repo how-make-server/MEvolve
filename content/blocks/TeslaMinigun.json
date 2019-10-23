@@ -43,4 +43,5 @@
 		{ "item": "Bronze", "amount": 75 }
 	],
 	"category": "turret"
+	"research": "arc"
 }

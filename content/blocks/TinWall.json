@@ -8,4 +8,5 @@
 		{ "item": "Tin", "amount": 6 }
 	],
 	"category": "defense"
+	"research": "duo"
 }

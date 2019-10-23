@@ -36,4 +36,5 @@
 		{ "item": "thorium", "amount": 100}
 	],
 	"category": "turret",
+	"research": "salvo"
 }
