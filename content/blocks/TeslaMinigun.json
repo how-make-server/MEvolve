@@ -42,6 +42,6 @@
 		{ "item": "lead", "amount": 75 },
 		{ "item": "Bronze", "amount": 75 }
 	],
-	"category": "turret"
+	"category": "turret",
 	"research": "arc"
 }

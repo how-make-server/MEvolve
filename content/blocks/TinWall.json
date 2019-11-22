@@ -1,12 +1,12 @@
 {
     "type": "Wall",
     "name": "Tin Wall",
-    "description": "Not expensive wall. Enjoy!"
-	"health": 290
-	"size": 1
+    "description": "Not expensive wall. Enjoy!",
+	"health": 290,
+	"size": 1,
 	"requirements": [
 		{ "item": "Tin", "amount": 6 }
 	],
-	"category": "defense"
+	"category": "defense",
 	"research": "duo"
 }

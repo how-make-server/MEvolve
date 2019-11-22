@@ -1,0 +1,33 @@
+{
+	"name": "Scrapper",
+	"descroption": "Find in sand peaces of scrap. Need water.",
+
+	"type": "GenericSmelter",
+
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "Bronze", "amount": 25 },
+		{ "item": "copper", "amount": 50 }
+	],
+
+	"outputItem": { "item":"scrap", "amount": 1 },
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 2 }
+			]
+		    },
+		"liquid": { "liquid": "water", "amount": 0.2 }
+	},
+	"idleSound": "respawning",
+	"research": "mechanical-drill"
+
+
+}

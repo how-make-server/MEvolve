@@ -20,10 +20,10 @@
 			"ammoMultiplier": 20
 		},
 		"Armor-PiercingAmmo": {
-			"speed": 10
-			"damage": 35
-			"bulletWidth": 7
-			"bulletHeight": 10
+			"speed": 10,
+			"damage": 35,
+			"bulletWidth": 7,
+			"bulletHeight": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 30
