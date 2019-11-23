@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Steel",
+	"description": "Iron and coal...",
+	"hardness": 1,
+	"cost": 0.7,
+	"color": "#FF0000",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}
