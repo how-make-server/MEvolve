@@ -1,0 +1,32 @@
+{
+	"name": "Iron Machine",
+	"descroption": "Transform tin to iron. Use when map don't have iron.",
+
+	"type": "GenericSmelter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "Tin", "amount": 100 }
+	],
+
+	"outputItem": { "item": "Iron", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "Tin", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "TinMachine"
+
+
+}
