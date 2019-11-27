@@ -19,7 +19,7 @@ Recently, I have very little time for development, so I won’t keep pace with t
 
 
 
-This is mod for Mindustry adds some small features. Now in this mod 3 turrets, 10 blocks and 8 new items. In future - new Campaign, Custom Zones, Units and more
+This is mod for Mindustry adds some small features. Now in this mod 3 turrets, 10+ blocks and 10 new items. In future - new Campaign, Custom Zones, Units and more
 
 Trello (Now and future plans): https://trello.com/b/p2ntu2UB
 
