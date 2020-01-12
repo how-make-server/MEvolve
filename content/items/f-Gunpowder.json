@@ -1,0 +1,11 @@
+{
+	"type": "resource",
+	"name": "[#595959]Gunpowder",
+	"description": "BOOM!",
+	"hardness": 1,
+	"cost": 6.0,
+	"color": "#595959",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.7
+}

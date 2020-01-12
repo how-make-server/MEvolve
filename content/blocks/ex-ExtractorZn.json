@@ -1,0 +1,32 @@
+{
+	"name": "Extractor [#5c635a]Zn",
+	"description": "Transform [#d9d5c1]nickel [white]to [#5c635a]zinc[white]. Use when map don't have [#5c635a]zinc[white].",
+
+	"type": "GenericSmelter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "ore-Nickel", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Zinc", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "ore-Nickel", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorNi"
+
+
+}

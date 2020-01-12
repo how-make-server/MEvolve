@@ -1,0 +1,25 @@
+// items //
+	without tag = vanilla
+	ore- 		= ore
+	m- 			= material
+	f- 			= fuel/non-core
+
+// blocks //
+	cr-   		= crafting
+	dis-  		= distribute
+	etc-  		= misc
+	ex-   		= extractor
+	for-  		= forge
+	gen-  		= generator
+	ore-  		= ore
+	pow-  		= power
+	tur-  		= turret
+	wall- 		= wall
+	dr-     	= drill
+	mp-     	= mech pad
+	p-      	= projector
+
+// liquids //
+	f-			= fuel
+	c-			= cryo
+	cr- 		= craft

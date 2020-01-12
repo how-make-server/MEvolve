@@ -1,0 +1,11 @@
+{
+	"type": "resource",
+	"name": "[#ed8e77]Energy Cell",
+	"description": "Bz-z-z. Can be used as ammo and energy tank",
+	"hardness": 1,
+	"cost": 6.0,
+	"color": "#ed8e77",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

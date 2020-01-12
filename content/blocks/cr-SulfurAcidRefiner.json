@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+
+	"name": "Sulfur Acid Refiner",
+	"description": "Combine water and sulfur to produce sulfur acid",
+
+	"craftTime": 60,
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "ore-Iron", "amount": 75 },
+		{ "item": "m-Bronze", "amount": 75 }	
+	],
+	"outputLiquid": { "liquid": "f-SulfurAcid", "amount": 60 },
+	"consumes": {
+		"power": 1.1,
+		"items": {
+			"items": [
+				{ "item": "ore-Sulfur", "amount": 3 }
+			]
+		},
+		"liquid": {
+				      "liquid": "water",
+				      "amount": 1.2
+				  }
+		}
+}

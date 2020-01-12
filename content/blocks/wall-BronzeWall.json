@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "[#e89e09]Bronze Wall",
+    "description": "More Strange wall. Enjoy!",
+	"health": 440,
+	"size": 1,
+	"requirements": [
+		{ "item": "m-Bronze", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "wall-TinWall"
+}

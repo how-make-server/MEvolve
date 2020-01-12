@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "[#c9c9c7]Silver",
+	"description": "Silver, silver...",
+	"hardness": 3,
+	"cost": 0.6,
+	"color": "#c9c9c7",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

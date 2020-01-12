@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Toranium Forge",
+	"description": "Combines nickel and iron to produce invar.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "m-Toranium", "amount": 1 },
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 2 },
+				{ "item": "ore-Uranium", "amount": 2 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 300 },
+		{ "item": "copper", "amount": 300 },
+		{ "item": "m-Bronze", "amount": 250 },
+		{ "item": "ore-Iron", "amount": 200 },
+		{ "item": "m-Steel", "amount": 100 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "ore-Uranium", "amount": 100 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "mechanical-drill"
+}

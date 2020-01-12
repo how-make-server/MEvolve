@@ -1,0 +1,47 @@
+{
+	"type": "itemTurret",
+	"name": "[#28dde0]Tesla [white]Minigun",
+	"description": "Minigun. Need MORE ENERGY!",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 500,
+	"hasItems": true,
+	"size": 2,
+	"inaccuracy": 10,
+	"reload": 5,
+	"shootCone": 40,
+	"rotateSpeed": 30,
+	"shots": 10,
+	"shootType": "lancerLaser",
+	"powerUse": 0.2,
+	"range": 150,
+	"burstSpacing": 1,
+	"ammo": {
+		"f-EnergyCell": {
+			"speed": 10,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight":20,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 15
+		},
+		"f-SuperEnergyCell": {
+			"speed": 11,
+			"damage": 35,
+			"bulletWidth": 6,
+			"bulletHeight": 20,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 30
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "lead", "amount": 75 },
+		{ "item": "m-Bronze", "amount": 75 }
+	],
+	"category": "turret",
+	"research": "arc"
+}

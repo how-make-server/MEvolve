@@ -1,0 +1,32 @@
+{
+	"name": "Extractor [#d1d14f]S",
+	"description": "Transform [#F7CBA4]sand [white]to [#d1d14f]sulfur[white]. Use when map don't have [#d1d14f]sulfur[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "m-Bronze", "amount": 50 },
+		{ "item": "ore-Zinc", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Sulfur", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "sand", "amount": 2 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorZn"
+
+
+}

@@ -1,0 +1,32 @@
+{
+	"name": "Extractor [#d9d5c1]Ni",
+	"description": "Transform [#AB99D3]lead [white]to [#d9d5c1]nickel[white]. Use when map don't have [#d9d5c1]nickel[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Nickel", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "lead", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorSn"
+
+
+}

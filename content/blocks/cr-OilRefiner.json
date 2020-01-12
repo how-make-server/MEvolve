@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+
+	"name": "Oir Refiner",
+	"description": "Makes mazoute and diesel with oil and zinc",
+	"requirements": [
+					{ "item": "copper", "amount": 100 },
+					{ "item": "m-Steel", "amount": 50 },
+					{ "item": "graphite", "amount": 50 }
+				],
+
+	"outputLiquid": { "liquid": "cr-Mazout", "amount": 50 },
+	"outputItem":   { "item": "f-CanistreOfDiesel", "amount": 1 },
+
+	"consumes": {
+		"power": 0.8,
+		"liquid": {
+			"liquid": "oil",
+			"amount": 6
+		},
+		"items":
+			{ "items": [
+				{ "item": "ore-Zinc", "amount": 2 }
+			]
+		}
+	},
+
+	"category": "crafting",
+
+	"hasLiquids": true,
+	"hasItems": true,
+	"hasPower": true,
+	"size": 2,
+	"craftTime": 15
+}

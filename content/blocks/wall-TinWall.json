@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "[#d9d2c1]Tin Wall",
+    "description": "Not expensive wall. Enjoy!",
+	"health": 290,
+	"size": 1,
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "duo"
+}

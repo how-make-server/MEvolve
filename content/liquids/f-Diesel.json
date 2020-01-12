@@ -1,0 +1,9 @@
+{
+	"name": "[#a67b1f]Diesel",
+	"description": "Fuel?",
+	"color": "#ab883e",
+	"barColor": "#ab883e",
+	"flammability": 0.9,
+	"temperature": 0.5,
+	"viscosity": 0.5,
+}

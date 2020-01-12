@@ -1,0 +1,32 @@
+{
+	"name": "Extractor [#c9c9c7]Ag",
+	"description": "Transform [#a6a4a1]iron [white]to [#c9c9c7]silver[white]. Use when map don't have [#c9c9c7]silver[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "m-Bronze", "amount": 50 },
+		{ "item": "ore-Iron", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Silver", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+				     	{ "item": "ore-Iron", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorFe"
+
+
+}

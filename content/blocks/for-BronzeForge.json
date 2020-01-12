@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "[#e89e09]Bronze [white]Forge",
+	"description": "Combines cooper and tin to produce bronze.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "m-Bronze", "amount": 4},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "ore-Tin", "amount": 1 },
+				{ "item": "copper", "amount": 3 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 50 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "mechanical-drill"
+}

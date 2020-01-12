@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "[#e89e09]Bronze Big Wall",
+    "description": "More strange BIG-BIG wall. Enjoy!",
+	"health": 1760,
+	"size": 2,
+	"requirements": [
+		{ "item": "m-Bronze", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "wall-BronzeWall"
+}

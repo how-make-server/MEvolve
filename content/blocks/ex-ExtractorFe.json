@@ -1,0 +1,33 @@
+{
+	"name": "Extractor [#a6a4a1]Fe",
+	"description": "Transform [#d9d2c1]tin [white]to [#a6a4a1]iron[white]. Use when map don't have [#a6a4a1]iron[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "ore-Tin", "amount": 50 },
+		{ "item": "m-Bronze", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Iron", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "ore-Tin", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorSn"
+
+
+}

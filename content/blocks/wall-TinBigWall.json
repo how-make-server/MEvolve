@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "[#d9d2c1]Big Tin Wall",
+    "description": "Not expensive BIG-BIG wall. Enjoy!",
+	"health": 1190,
+	"size": 2,
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "wall-TinWall"
+}

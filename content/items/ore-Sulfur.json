@@ -1,0 +1,11 @@
+{
+	"type": "resource",
+	"name": "[#d1d14f]Sulfur",
+	"description": "Aw shit.",
+	"hardness": 1,
+	"cost": 2.0,
+	"color": "#d1d14f",
+	"radioactivity": 0.0,
+	"explosiveness": 0.9,
+	"flammability": 0.9
+}

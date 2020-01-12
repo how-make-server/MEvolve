@@ -1,0 +1,22 @@
+{
+	"type": "PowerNode",
+
+	"name": "Electrum Large Power Node",
+	"description": "Big and better node than classic",
+
+	"size": 2,
+	"requirements": [
+		{ "item": "lead", "amount": 10 },
+		{ "item": "m-Electrum", "amount": 5 },
+		{ "item": "silicon", "amount": 5 }
+	],
+
+	"update": true,
+	"solid": true,
+	"hasPower": true,
+
+	"category": "power",
+
+	"laserRange": 23,
+	"maxNodes": 100
+}

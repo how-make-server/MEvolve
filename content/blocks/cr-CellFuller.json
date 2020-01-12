@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "[#28dde0]Cell [white]Fuller",
+	"description": "Fill Cell with Energy",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "f-EnergyCell", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 25,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{ "item": "f-EnergyCellEmpty", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 50 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "m-Bronze", "amount": 50 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "cr-CellMaker"
+}

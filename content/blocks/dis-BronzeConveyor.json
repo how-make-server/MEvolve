@@ -1,0 +1,24 @@
+{
+	"name": "[#e89e09]Bronze Conveyor",
+	"description": "Healthly and speedy conveyor.",
+
+	"type": "Conveyor",
+	"health": 300,
+	"speed": 0.05,
+	"rotate": true,
+	"update": true,
+	"layer": "overlay",
+	"group": "transportation",
+	"category": "distribution",
+	"hasItems": true,
+	"itemCapacity": 6,
+	"idleSound": "conveyor",
+	"idleSoundVolume": 0.004,
+	"unloadable": false,
+
+	"requirements": [
+			{ "item": "copper", "amount": 1 },
+			{ "item": "ore-Tin", "amount": 1 },
+			{ "item": "m-Bronze", "amount": 1 }
+	]
+}

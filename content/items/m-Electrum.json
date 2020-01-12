@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "[#e3d68a]Electrum",
+	"description": "Bz-z-z-z",
+	"hardness": 3,
+	"cost": 0.6,
+	"color": "#e3d68a",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

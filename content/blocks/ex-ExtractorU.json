@@ -1,0 +1,34 @@
+{
+	"name": "Extractor U",
+	"description": "Transform thorium [white]to uranium[white]. Use when map don't have uranium[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "graphite", "amount": 75 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "thorium", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Uranium", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				     	{ "item": "thorium", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "ex-ExtractorNi"
+
+
+}

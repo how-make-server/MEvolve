@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "[#8B8891]Torarium",
+	"description": "Thorium and Uranium. HMMMMM...",
+	"hardness": 3,
+	"cost": 0.8,
+	"color": "8B8891",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

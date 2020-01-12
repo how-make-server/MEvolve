@@ -1,0 +1,30 @@
+{
+	"type": "DoubleTurret",
+	"name": "[#805414]Vulcan",
+	"description": "TRATATATATATATTATATATA. Oh, where all ammo?",
+	"health": 300,
+	"size": 3,
+	"reload": 3,
+	"range": 125,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 25,
+	"rotatespeed": 15,
+	"ammo": {
+		"copper": {
+			"speed": 7,
+			"damage": 7,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 5
+		}
+	},
+	"requirements": [
+		{ "item": "m-Bronze", "amount": 150 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "ore-Tin", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}

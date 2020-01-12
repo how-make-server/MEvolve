@@ -1,0 +1,11 @@
+{
+	"name": "[#a6a4a1]Beethoven - To Elise",
+	"description": "Tu-tu-tu-tu-tu-tu tu...",
+	"type": "GenericSmelter",
+	"idleSound": "Music1",
+	"idleSoundVolume": 200,
+	"category": "effect",
+	"requirements": [
+   { "item": "copper", "amount": 20 }
+	]
+}

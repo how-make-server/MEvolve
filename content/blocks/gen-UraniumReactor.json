@@ -1,0 +1,50 @@
+{
+	"type": "NuclearReactor",
+// Name
+	"name": "Uranium Reactor",
+	"description": "Hmmm, new Chernobyl?",
+// Block
+	"size": 3,
+	"category": "power",
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "ore-Iron", "amount": 200 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "ore-Gold", "amount": 150 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "ore-Uranium", "amount": 75 }
+	],
+
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "ore-Uranium", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 1
+		}
+	},
+
+	"itemCapacity": 25,
+// PowerBlock type
+	"update": true,
+	"solid": true,
+	"hasPower": true,
+// PowerDistributor type
+	"consumesPower": false,
+	"outputsPower": true,
+// PowerGenerator type
+	"powerProduction": 30,
+// NuclearReactor type
+	"lightColor": "5ab33e",
+	"hotColor": "ff9575a3",
+	"itemDuration": 110,
+	"heating": 0.05,
+	"smokeThreshold": 0.30,
+	"explosionRadius": 1500,
+	"explosionDamage": 5000,
+	"flashThreshold": 0.76,
+	"coolantPower": 0.10,
+}

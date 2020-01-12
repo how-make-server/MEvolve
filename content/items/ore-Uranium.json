@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "[#5ab33e]Uranium",
+	"description": "Oh no.",
+	"hardness": 3,
+	"cost": 0.5,
+	"color": "#5ab33e",
+	"radioactivity": 17.75,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

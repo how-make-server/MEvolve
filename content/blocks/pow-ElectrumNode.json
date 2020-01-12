@@ -1,0 +1,21 @@
+{
+	"type": "PowerNode",
+
+	"name": "Electrum Power Node",
+	"description": "Better node than classic",
+
+	"size": 1,
+	"requirements": [
+		{ "item": "lead", "amount": 3 },
+		{ "item": "m-Electrum", "amount": 1 }
+	],
+
+	"update": true,
+	"solid": true,
+	"hasPower": true,
+
+	"category": "power",
+
+	"laserRange": 10,
+	"maxNodes": 30
+}

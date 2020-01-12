@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "[#5c635a]Zinc",
+	"description": "Some interesting...",
+	"hardness": 3,
+	"cost": 0.5,
+	"color": "#5c635a",
+	"radioactivity": 0.0,
+	"explosiveness": 0.0,
+	"flammability": 0.0
+}

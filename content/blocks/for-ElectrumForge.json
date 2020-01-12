@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Electrum [white]Forge",
+	"description": "Combines gold and silver to produce electrum.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "m-Electrum", "amount": 2 },
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.4,
+		"items": {
+			"items": [
+				{ "item": "ore-Gold", "amount": 1 },
+				{ "item": "ore-Silver", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 250 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "m-Steel", "amount": 60 },
+		{ "item": "ore-Gold", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "for-SteelForge"
+}

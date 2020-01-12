@@ -1,0 +1,20 @@
+{
+	"type": "SurgeWall",
+
+	"name": "Electrum Big Wall",
+	"description": "Work like Surge Allow Wall, but have less health",
+
+	"health": 1700,
+	"size": 2,
+	"requirements": [
+		{ "item": "m-Electrum", "amount": 24 }
+	],
+
+	"research": "for-ElectrumForge",
+	"category": "defense",
+
+	"lightningChance": 0.05,
+	"lightningDamage": 7,
+	"lightningLength": 20
+
+}

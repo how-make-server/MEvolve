@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "[#3bd44b]Super [#28dde0]Cell [white]Maker",
+	"description": "Make Super Cells.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "f-SuperEnergyCell", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "f-EnergyCell", "amount": 4 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 100 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "cr-CellFuller"
+}

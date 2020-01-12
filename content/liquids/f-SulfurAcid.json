@@ -1,0 +1,9 @@
+{
+	"name": "[#e0e019]Sulfur Acid",
+	"description": "AWWW SHIT!",
+	"color": "#abab13",
+	"barColor": "#abab13",
+	"flammability": 0.5,
+	"temperature": 0.6,
+	"viscosity": 0.6,
+}

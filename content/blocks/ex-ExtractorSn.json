@@ -1,0 +1,31 @@
+{
+	"name": "Extractor [#d9d2c1]Sn",
+	"description": "Transform [#EAC2A9]copper to [#d9d2c1]tin[white]. Use when map don't have [#d9d2c1]tin[white].",
+
+	"type": "GenericCrafter",
+
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"size": 2,
+	"category": "crafting",
+	"requirements": [
+		{ "item": "copper", "amount": 50 }
+	],
+
+	"outputItem": { "item": "ore-Tin", "amount": 1 },
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				     	{ "item": "copper", "amount": 1 }
+			         ]
+		         }
+	},
+	"idleSound": "respawning",
+	"research": "mechanical-drill"
+
+
+}

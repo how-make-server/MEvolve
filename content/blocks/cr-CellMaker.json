@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "[#28dde0]Cell [white]Maker",
+	"description": "Makes empty energy cells",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "f-EnergyCellEmpty", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 35,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 2 },
+				{ "item": "lead", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "ore-Tin", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "m-Bronze", "amount": 75 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "combustion-generator"
+}

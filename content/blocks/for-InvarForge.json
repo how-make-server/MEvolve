@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Invar [white]Forge",
+	"description": "Combines nickel and iron to produce invar.",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "m-Invar", "amount": 3 },
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "ore-Iron", "amount": 2 },
+				{ "item": "ore-Nickel", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "m-Bronze", "amount": 50 },
+		{ "item": "ore-Iron", "amount": 50 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5,
+	"research": "mechanical-drill"
+}

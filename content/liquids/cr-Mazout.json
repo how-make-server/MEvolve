@@ -1,0 +1,9 @@
+{
+	"name": "[#eb8928]Mazout",
+	"description": "More fire!",
+	"color": "#cf7419",
+	"barColor": "#cf7419",
+	"flammability": 0.9,
+	"temperature": 0.5,
+	"viscosity": 0.3,
+}
